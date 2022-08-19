@@ -5,7 +5,11 @@
   "use strict";
   $(".sakura-falling").sakura();
 })(jQuery);
-window.alert("playing background music..");
+
+window.onload = (e) => {
+  document.getElementById("btn-modal").click();
+  document.getElementById("btn-modal").style.display = "none";
+};
 /**
  *
  * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
@@ -20,9 +24,9 @@ window.alert("playing background music..");
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on("load", function () {
+$(document).on("click", function () {
   document.getElementById("my_audio").play();
-  console.log("Shaadi me zaroor aana");
+  console.log("wedding time");
 });
 
 // Set the date we're counting down to
@@ -44,7 +48,7 @@ var x = setInterval(function () {
 
   // Output the result in an element with id="demo"
   document.getElementById("time").innerHTML =
-    "<div class='container'><div class='days block'>" +
+    "<div class='timer-container'><div class='days block'>" +
     days +
     "<br>Days</div>" +
     "<div class='hours block'>" +
