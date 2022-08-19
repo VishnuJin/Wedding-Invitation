@@ -5,7 +5,7 @@
   "use strict";
   $(".sakura-falling").sakura();
 })(jQuery);
-
+window.alert("playing background music..");
 /**
  *
  * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
