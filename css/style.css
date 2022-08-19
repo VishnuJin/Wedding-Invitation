@@ -386,7 +386,15 @@ img {
   margin: 32px 0;
   color: #674ea7;
 }
-
+#msg {
+  font-family: cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  text-transform: none;
+  margin: 32px 0;
+  color: #d4538b;
+}
 .title h2 {
   font-family: "Dancing Script", cursive;
   font-weight: bold;
@@ -394,7 +402,7 @@ img {
   margin: 0;
   padding: 0;
   font-size: 24px;
-  color: #e25c67;
+  color: #d4538b;
   line-height: 1;
 }
 
@@ -519,12 +527,12 @@ body {
 }
 
 .date {
-  color: #874562;
+  color: #d4538b;
   font-weight: 900;
 }
 
 .place {
-  color: #874562;
+  color: #d4538b;
   font-weight: 900;
 }
 
